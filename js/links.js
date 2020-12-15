@@ -23,95 +23,74 @@ const categories = [
 
 // Links
 // Links available
-const links = [
-    {
-        title: 'Repositório com o código do projeto Linksforall',
-        category_id: 'projects',
-        link: 'https://tinu.be/linksforall',
-        icon: 'projects',
-    },
-    
-    {
-        title: 'Figma com UI do projeto Linksforall',
-        category_id: 'projects',
-        link: 'https://tinu.be/uilinks',
-        icon: 'projects',
-    },
-
-    {
-        title: 'Paper to code, processo de um projeto do papel ao código no @codigodesign',
-        category_id: 'videos',
-        link: 'https://tinu.be/papertocode01',
-        icon: 'video'
-    },
-
-    {
-        title: 'tinu.be - encurtador de url open-source',
-        category_id: 'projects',
-        link: 'https://tinu.be',
-        icon: 'projects',
-    },
-
-    {
-        title: 'Hipsters.tech',
-        category_id: 'podcasts',
-        link: 'https://tinu.be/hipsterstech',
-        icon: 'mic',
-    },
-    
+const links = [  
     {
         title: 'FalaDev',
         category_id: 'podcasts',
-        link: 'https://tinu.be/faladev',
+        link: 'http://spoti.fi/37jYbry',
         icon: 'mic',
     },
-    
     {
-        title: 'Papo de UX',
-        category_id: 'podcasts',
-        link: 'https://tinu.be/papodeux',
-        icon: 'mic',
+        title: 'Transformação Digital Durante A Pandemia',
+        category_id: 'articles',
+        link: 'http://bit.ly/3oSJhhY',
+        icon: 'editor'
     },
-    
     {
-        title: 'JTBD+',
+        title: 'Hipsters.tech',
         category_id: 'podcasts',
-        link: 'https://tinu.be/jtbdpdc',
+        link: 'http://spoti.fi/34imd4e',
         icon: 'mic',
-    },
-
+    },     
+   
     {
-        title: 'DevCast',
-        category_id: 'podcasts',
-        link: 'https://tinu.be/devcast',
-        icon: 'mic',
+        title: 'Coronavírus (React Native)',
+        category_id: 'projects',
+        link: 'http://bit.ly/34ijWWP',
+        icon: 'projects'
     },
-
     {
         title: 'PodCrê',
         category_id: 'podcasts',
-        link: 'https://tinu.be/podcre',
+        link: 'http://spoti.fi/2KwJ6d6',
         icon: 'mic',
     },
-
     {
-        title: 'Da teoria à prática: Criando um produto',
-        category_id: 'articles',
-        link: 'https://tinu.be/tinubepost',
-        icon: 'editor'
+        title: 'Pokédex (React Native)',
+        category_id: 'projects',
+        link: 'http://bit.ly/2WiK53C',
+        icon: 'projects'
     },
-
+   
     {
-        title: 'A história por trás da landing page de planos da Nuvemshop',
+        title: 'Por Que Devs Deveriam Escrever Artigos?',
         category_id: 'articles',
-        link: 'hhttps://tinu.be/plansnuvem',
+        link: 'http://bit.ly/3r2odaw',
         icon: 'editor'
+    },   
+    {
+        title: 'Temporada de Caça aos DEVS',
+        category_id: 'articles',
+        link: 'http://bit.ly/3mltu9P',
+        icon: 'editor'
+    },    
+    {
+        title: 'Local Schedule (React Native)',
+        category_id: 'projects',
+        link: 'http://bit.ly/3gTLve7',
+        icon: 'projects'
     },
-
     {
-        title: '[ES] La historia detrás de la landing page de planes y precios de Tiendanube',
-        category_id: 'articles',
-        link: 'hhttps://tinu.be/planstiendanube',
-        icon: 'editor'
-    }
+        title: 'Papo de UX',
+        category_id: 'podcasts',
+        link: 'http://spoti.fi/3aay7RD',
+        icon: 'mic',
+    },       
+    {
+        title: 'DevCast',
+        category_id: 'podcasts',
+        link: 'http://spoti.fi/3r1SSFd',
+        icon: 'mic',
+    },
+   
 ];

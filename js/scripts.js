@@ -90,11 +90,9 @@ function shareLink() {
     
     btnShare.forEach((e) => {
         let getUrl = e.parentNode.querySelector('a').href;
-        e.classList.remove('hide');
-        console.log(getUrl);
-        
+        e.classList.remove('hide');        
         e.addEventListener('click', function(){
-            console.log(getUrl)
+           
             navigator.share({
                 title:'Link Compartilhado de @flwski',
                 text:'Visite o link para saber mais:',
