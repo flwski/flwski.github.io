@@ -96,8 +96,8 @@ function shareLink() {
         e.addEventListener('click', function(){
             console.log(getUrl)
             navigator.share({
-                title:'asd',
-                text:'sadsa',
+                title:'Link Compartilhado de @flwski',
+                text:'Visite o link para saber mais:',
                 url: getUrl.toString(),
               })
           .then(() => console.log('Successful share'),
