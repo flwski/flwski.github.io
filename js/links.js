@@ -11,13 +11,7 @@ const categories = [
         title: 'Projetos',
         icon: 'projects',
         category_id: 'projects'
-    },
-
-    {
-        title: 'Videos',
-        icon: 'video',
-        category_id: 'videos'
-    },
+    },  
 
     {
         title: 'Podcasts',

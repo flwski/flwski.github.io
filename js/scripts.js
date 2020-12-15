@@ -75,6 +75,7 @@ function newsletter() {
 
             setTimeout(() => {
                 formResponse.classList.remove('is-visible')    
+                document.getElementById('email').value = ""
             },3000);
         })
         .catch(err => {
