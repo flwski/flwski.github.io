@@ -18,6 +18,11 @@ const categories = [
         icon: 'mic',
         category_id: 'podcasts'
     },
+    {
+        title: 'Playlists',
+        icon: 'video',
+        category_id: 'playlists'
+    },
 
 ];
 
@@ -91,6 +96,18 @@ const links = [
         category_id: 'podcasts',
         link: 'http://spoti.fi/3r1SSFd',
         icon: 'mic',
+    },         
+    {
+        title: 'Code, Coffee & Chill',
+        category_id: 'playlists',
+        link: 'http://spoti.fi/2KoqSdY',
+        icon: 'video',
+    },
+    {
+        title: "Throwback - 80's - 90's",
+        category_id: 'playlists',
+        link: 'http://spoti.fi/3gQVMIf',
+        icon: 'video',
     },
    
 ];
