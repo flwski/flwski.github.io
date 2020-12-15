@@ -91,13 +91,17 @@ function shareLink() {
     btnShare.forEach((e) => {
         let getUrl = e.parentNode.querySelector('a').href;
         e.classList.remove('hide');
+        console.log(getUrl);
         
-        e.addEventListener('click', async function(){
-            await navigator.share({
-              url: getUrl,
-            })
-            .then(() => console.log('Link shared'))
-            .catch((error) => console.log('Error sharing', error));
+        e.addEventListener('click', function(){
+            console.log(getUrl)
+            navigator.share({
+                title:'asd',
+                text:'sadsa',
+                url: getUrl.toString(),
+              })
+          .then(() => console.log('Successful share'),
+           error => console.log('Error sharing:', error));
         });
     })
 }
