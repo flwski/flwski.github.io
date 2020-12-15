@@ -86,21 +86,24 @@ function newsletter() {
 }
 
 // Event to call native share method from browser
-function shareLink() {
+function shareLink(text, description, url ) {
     let btnShare = document.querySelectorAll('.js-btn-share');
     
     btnShare.forEach((e) => {
         let getUrl = e.parentNode.querySelector('a').href;
-        e.classList.remove('hide');
-        
-        e.addEventListener('click', function(){
-            navigator.share({
-              url: getUrl,
-            })
-            .then(() => console.log('Link shared'))
-            .catch((error) => console.log('Error sharing', error));
-        });
+        e.classList.remove('hide');       
+      
     })
+}
+
+async function shareTo(title,link){
+    try {
+        await navigator.share({
+            url: link
+          })
+      } catch(err) {
+       
+      }   
 }
 
 
@@ -118,7 +121,7 @@ function outputLink(title, category_id, link, icon) {
             </div>
             <p>${title}</p>
         </a>
-        <button class="js-btn-share btn-share btn-reset hide">
+        <button onClick="${shareTo(title, link)}" class="js-btn-share btn-share btn-reset hide">
             <img src="./images/icons/icon-share.svg" alt="share" loading="lazy">
         </button>
     `;
