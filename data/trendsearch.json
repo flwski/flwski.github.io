@@ -2,31 +2,31 @@
     {
         "id" : 464052,
         "title" : "Mulher-Maravilha 1984",
-        "image": "/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
-        "type": "movie"
+        "backdrop_path": "/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+        "media_type": "movie"
     },
     {
         "id" : 508442,
         "title" : "Soul",
-        "image": "/kf456ZqeC45XTvo6W9pW5clYKfQ.jpg",
-        "type": "movie"
+        "backdrop_path": "/kf456ZqeC45XTvo6W9pW5clYKfQ.jpg",
+        "media_type": "movie"
     },
     {
         "id" : 82856,
         "title" : "The Mandalorian",
-        "image": "/o7qi2v4uWQ8bZ1tW3KI0Ztn2epk.jpg",
-        "type": "tv"
+        "backdrop_path": "/o7qi2v4uWQ8bZ1tW3KI0Ztn2epk.jpg",
+        "media_type": "tv"
     },
     {
         "id" : 79242,
         "title" : "O Mundo Sombrio de Sabrina",
-        "image":  "/8AdmUPTyidDebwIuakqkSt6u1II.jpg",
-        "type": "tv"
+        "backdrop_path":  "/8AdmUPTyidDebwIuakqkSt6u1II.jpg",
+        "media_type": "tv"
     },
     {
         "id" : 77169,
         "title" : "Cobra Kai",
-        "image": "/gL8myjGc2qrmqVosyGm5CWTir9A.jpg",
-        "type": "tv"
+        "backdrop_path": "/gL8myjGc2qrmqVosyGm5CWTir9A.jpg",
+        "media_type": "tv"
     }
 ]
